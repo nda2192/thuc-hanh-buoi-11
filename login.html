@@ -10,11 +10,14 @@
 <body>
     <script>
         let name = prompt("Nhap ten di")
-        if (name == "Admin") { 
-            let pw = prompt("nhap pass di") } else if (name = null) {
-                alert("canceled") 
-            } else { alert("I dont know")}
-            
+        if (name == "Admin") {
+            let pw = prompt("nhap pass di")
+        } else if (name = null) {
+            alert("canceled")
+        } else { alert("I dont know") }
+        if (pw == "TheMaster"){
+            alert("Welcome")
+        } else if ( pw == null) {alert("Canceled")} else { alert("I dont know")}
     </script>
 </body>
 
